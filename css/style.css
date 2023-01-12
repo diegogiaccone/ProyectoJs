@@ -53,3 +53,18 @@ header, .alert{
 .hide, .remove{
     display: none;
 }
+
+.video{
+    text-align: center;    
+}
+
+h3{
+    padding-right: 50px;
+
+}
+
+.imagenes{    
+    text-align: center;
+    justify-content: center;
+    
+}

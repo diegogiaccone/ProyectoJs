@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Funko Pops</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,6 +21,7 @@
         id="pills-tab"
         role="tablist"
       >
+        <h3 class="text-center m-0 text-mute text-primary texto">FUNKO POPS</h3>
         <li class="nav-item" role="presentation">
           <a
             class="nav-link"
@@ -62,247 +64,32 @@
       </ul>
     </header>
 
-    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
-      Se agregó tu producto al carrito.
-    </div>
-    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
-      Se a quitado el producto.
-    </div>
-
-    <div class="tab-content" id="pills-tabContent">
+    <div class="tab-content" id="pills-tabContent">      
       <div
         class="tab-pane fade"
         id="pills-home"
         role="tabpanel"
         aria-labelledby="pills-home-tab"
       >
-        1
-      </div>
+    </div>
 
       <div
         class="tab-pane fade show active container"
         id="pills-profile"
         role="tabpanel"
         aria-labelledby="pills-profile-tab"
-      >
+      > 
+
+
         <h2 class="h4 m-4 text-primary">Productos</h2>
 
         <div
-          class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-x1-4"
-        >
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Iron Man</h5>
-              <img
-                src="./imagenes/imagen1.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">DeadPool</h5>
-              <img
-                src="./imagenes/imagen2.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Fun-Kobain</h5>
-              <img
-                src="./imagenes/imagen3.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Joven Manos de Tijera</h5>
-              <img
-                src="./imagenes/imagen4.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Spider Man</h5>
-              <img
-                src="./imagenes/imagen5.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Joker</h5>
-              <img
-                src="./imagenes/imagen6.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Naruto</h5>
-              <img
-                src="./imagenes/imagen7.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Venom</h5>
-              <img
-                src="./imagenes/imagen8.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>          <div class="col d-flex justify-content-center mb-4">
-            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
-              <h5 class="card-title pt-2 text-center text-primary">Thor</h5>
-              <img
-                src="./imagenes/imagen9.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <p class="card-text text-white-50 description">
-                  Edición limitada no te lo podes perder. Esta increible oferta
-                  expira el 20 de febrero del 2023.
-                </p>
-                <h5 class="text-primary">
-                  Precio: <span class="precio">$ 4500</span>
-                </h5>
-                <div class="d-grid gap-2">
-                  <button class="btn btn-primary button">
-                    Añadir al Carrito
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-x1-4" id="productos"
+        > 
+        <!-- aca se pushean los productos -->
+          
         </div>
       </div>
-
-
 
       <div
         class="tab-pane fade carrito"
@@ -310,37 +97,35 @@
         role="tabpanel"
         aria-labelledby="pills-contact-tab"
       >
-      
-      <table class="table table-dark table-hover">
-        <thead>
-          <tr class="text-primary">
-            <th scope="col">#</th>
-            <th scope="col">Productos</th>
-            <th scope="col">Precio</th>
-            <th scope="col">Cantidad</th>
-          </tr>
-        </thead>
-        <tbody class="tbody">
+        <table class="table table-dark table-hover">
+          <thead>
+            <tr class="text-primary">
+              <th scope="col">#</th>
+              <th scope="col">Productos</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Cantidad</th>
+            </tr>
+          </thead>
+          <tbody class="tbody">
+            <!-- aca se pushean los objetos de la array del carrito-->
+          </tbody>
+        </table>
 
-        </tbody>
-      </table>
-
-      <div class="row mx-4">
-        <div class="col">
-          <h3 class="itemCartTotal text-white">Total: 0</h3>
-          <div class="col d-flex justify-content-end">
-            <button class="btn btn-success">COMPRAR</button>
+        <div class="row mx-4">
+          <div class="col">
+            <h3 class="itemCartTotal text-white">Total: 0</h3>
+            <div class="col d-flex justify-content-end">
+              <button class="btn btn-success" id="btncomprar">COMPRAR</button>
+            </div>
           </div>
         </div>
-      </div>
-
       </div>
     </div>
 
     <footer class="bg-dark p-3 mt-5">
       <p class="text-center m-0 text-mute text-primary">FUNKO POPS</p>
-  </footer>
-  
+    </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.6.3.js"
       integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
