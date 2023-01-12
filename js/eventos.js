@@ -4,7 +4,7 @@ const tbody = document.querySelector(".tbody")
 let carrito = []
 
 const asincronismo = async () => {
-  const res = await fetch("./json/data.json")
+  const res = await fetch("json/data.json")
   const data = await res.json();
   data.forEach((producto) => {
     const div = document.createElement("div");
