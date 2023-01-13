@@ -213,18 +213,24 @@ function modal (imgurl){
     imageAlt: 'Custom image',
 })
 }
- //alert boton de comprar 
+ //finalizar compra 
 const comprarCarrito = document.getElementById("btncomprar")
 
-comprarCarrito.addEventListener("click", function(){
-  Swal.fire({
+comprarCarrito.addEventListener("click", function(){ 
+  carrito.length = 0
+  renderCarrito()
+  
+    Swal.fire({
     title: 'Muchas Gracias por su Compra',
     width: 600,
     padding: '3em',
     color: '#716add',
     background: `#fff`,
     backdrop: `
-      rgba(0,0,123,0.4)
+    rgba(0,0,123,0.4)
     `
   })
+
 })
+
+
