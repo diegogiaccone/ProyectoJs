@@ -37,7 +37,7 @@ const asincronismo = async () => {
     lista.append(div);
   })
 
-  const clickbtn = document.querySelectorAll(".button")
+  const clickbtn = document.querySelectorAll(".button") 
   clickbtn.forEach(btn =>{
       btn.addEventListener("click", addToCarritoItem)  
   })
@@ -54,7 +54,6 @@ function addToCarritoItem(e){
     const itemTitle = item.querySelector(".card-title").textContent;    
     const itemPrice = item.querySelector(".precio").textContent;   
     const itemImg = item.querySelector(".card-img-top").src;    
-    console.log(itemImg);
     const newItem = {
         title: itemTitle,
         precio: itemPrice,
@@ -109,10 +108,11 @@ function renderCarrito(){
         tr.querySelector(".delete").addEventListener("click", removeItemCarrito)
         tr.querySelector(".input__elemento").addEventListener("change", sumaCantidad)
 
-    })
-    
+    }) 
+              
     CarritoTotal()
-}
+  }
+  
 // suma los productos del carrito y nos da el total
 function CarritoTotal(){
     let Total = 0;
@@ -135,7 +135,8 @@ function removeItemCarrito(e){
             carrito.splice(i, 1)
         }
     }
-    //alert de eliminar producto
+    //alert de eliminar producto 
+
     const swalWithBootstrapButtons = Swal.mixin({
         customClass: {
           confirmButton: 'btn btn-success',

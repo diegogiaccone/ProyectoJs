@@ -2,7 +2,7 @@
     {"nombre":"Iron Man", "precio":"4500", "img":"./imagenes/imagen1.png", "id":"imagen1"},
     {"nombre":"DeadPool", "precio":"3500", "img":"./imagenes/imagen2.png", "id":"imagen2"},
     {"nombre":"Fun-kobain", "precio":"4500", "img":"./imagenes/imagen3.png", "id":"imagen3" },
-    {"nombre":"Joven Manos de Tijera", "precio":"$ 3000", "img":"./imagenes/imagen4.png", "id":"imagen4" },
+    {"nombre":"Joven Manos de Tijera", "precio":"3000", "img":"./imagenes/imagen4.png", "id":"imagen4" },
     {"nombre":"Spider Man", "precio":"3000", "img":"./imagenes/imagen5.png", "id":"imagen5" },
     {"nombre":"Joker", "precio":"4000", "img":"./imagenes/imagen6.png", "id":"imagen6" },
     {"nombre":"Naruto", "precio":"4500", "img":"./imagenes/imagen7.png", "id":"imagen7" },
